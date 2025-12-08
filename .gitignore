@@ -1,0 +1,17 @@
+__pycache__/
+
+logs/
+models/
+person_arg/
+fake_images/
+experiments/
+class_images/
+outputs/
+
+*_eval*
+results*
+*custom*
+
+*.npy
+launch*
+run_*
