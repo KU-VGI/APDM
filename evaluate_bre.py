@@ -7,7 +7,6 @@ import torch
 from evaluation.personalized_sampler import personalized_samplers
 from evaluation.clip_score import calculate_clip_score
 from evaluation.dino import calculate_dino
-from evaluation.clip_I import calculate_clip_I_score
 
 
 
@@ -61,15 +60,6 @@ def main(args):
         else:
             print(f"DINO score: {dino_score:.4f}")
 
-    # Calculate CLIP-I score
-    if args.clip_I_score:
-        clip_i_score = calculate_clip_I_score(args.data_dir, os.path.join(args.output_dir, 'imgs'), args)
-
-        if args.scheduler == "dpm_solver":
-            print(f"DPM CLIP-I score: {clip_i_score:.4f}")
-        else:
-            print(f"CLIP-I score: {clip_i_score:.4f}")
-    
     # Calculate CLIP score
     if args.clip_score:
         clip_score = calculate_clip_score(args)
