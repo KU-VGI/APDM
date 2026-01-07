@@ -5,7 +5,7 @@ Official implementation for NeurIPS 2025 paper:
 
 [Tae-Young Lee](https://github.com/TY-LEE-KR)\*, [Juwon Seo](https://github.com/JJuOn)\*, Jong Hwan Ko<sup>$\dagger$</sup>, and Gyeong-Moon Park<sup>$\dagger$</sup> 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2405.09879-b31b1b.svg)](https://arxiv.org/abs/2511.01307) 
+[![arXiv](https://img.shields.io/badge/arXiv-2511.01307-b31b1b.svg)](https://arxiv.org/abs/2511.01307) 
 
 # Environment
 - Python 3.12.x
